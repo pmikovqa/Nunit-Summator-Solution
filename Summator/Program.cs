@@ -13,7 +13,8 @@
             else {
                 Console.WriteLine("Test Fail");
             }
-                
+            double result2 = Summator.Average(new double[] { 6, 5 });   
+            Console.WriteLine(result2);
         }
     }
 }
